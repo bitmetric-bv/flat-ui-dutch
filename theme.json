@@ -1,0 +1,385 @@
+{
+  "object": {
+    "title": {
+      "main": {
+        "color": "@TitleColor",
+        "fontSize": "@TitleSize"
+      },
+      "subTitle": {
+        "color": "@SubtitleColor",
+        "fontSize": "@SubtitleSize"
+      },
+      "footer": {
+        "color": "@FooterColor",
+        "fontSize": "@FooterSize",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "label": {
+      "name": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "value": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      }
+    },
+    "axis": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "line": {
+        "major": {
+          "color": "#cfe7ed"
+        },
+        "minor": {
+          "color": "#cfe7ed"
+        }
+      }
+    },
+    "grid": {
+      "line": {
+        "highContrast": {
+          "color": "#cfe7ed"
+        },
+        "major": {
+          "color": "#cfe7ed"
+        },
+        "minor": {
+          "color": "#cfe7ed"
+        }
+      }
+    },
+    "referenceLine": {
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "outOfBounds": {
+        "color": "@TextColor",
+        "backgroundColor": "#ffffff",
+        "fontSize": "@TextSize"
+      }
+    },
+    "legend": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      }
+    }
+  },
+  "dataColors": {
+    "primaryColor": "#1289A7",
+    "othersColor": "#006266",
+    "errorColor": "#EA2027",
+    "nullColor": "#6F1E51"
+  },
+  "palettes": {
+    "data": [
+      {
+        "scale": [
+          "#FFC312",
+          "#F79F1F",
+          "#EE5A24",
+          "#EA2027",
+          "#C4E538",
+          "#A3CB38",
+          "#009432",
+          "#006266"
+        ],
+        "name": "Dutch Palette Sunflower",
+        "translation": "Dutch palette based on Flat UI",
+        "propertyValue": "ix1wej",
+        "type": "row",
+        "_id": "5aac0173be1a68155e395fae"
+      },
+      {
+        "scale": [
+          "#C4E538",
+          "#A3CB38",
+          "#009432",
+          "#006266",
+          "#12CBC4",
+          "#1289A7",
+          "#0652DD",
+          "#1B1464"
+        ],
+        "name": "Dutch Palette Energos",
+        "translation": "Dutch palette based on Flat UI",
+        "propertyValue": "xnfnpc",
+        "type": "row",
+        "_id": "5aac0173be1a68155e395fad"
+      },
+      {
+        "scale": [
+          "#12CBC4",
+          "#1289A7",
+          "#0652DD",
+          "#1B1464",
+          "#FDA7DF",
+          "#D980FA",
+          "#9980FA",
+          "#5758BB"
+        ],
+        "name": "Dutch Palette Blue Martina",
+        "translation": "Dutch palette based on Flat UI",
+        "propertyValue": "amg8hd",
+        "type": "row",
+        "_id": "5aac0173be1a68155e395fac"
+      },
+      {
+        "scale": [
+          "#FDA7DF",
+          "#D980FA",
+          "#9980FA",
+          "#5758BB",
+          "#ED4C67",
+          "#B53471",
+          "#833471",
+          "#6F1E51"
+        ],
+        "name": "Dutch Palette Lavender Rose",
+        "translation": "Dutch palette based on Flat UI",
+        "propertyValue": "2dw6c",
+        "type": "row",
+        "_id": "5aac0173be1a68155e395fab"
+      },
+      {
+        "scale": [
+          "#ED4C67",
+          "#B53471",
+          "#833471",
+          "#6F1E51",
+          "#FFC312",
+          "#F79F1F",
+          "#EE5A24",
+          "#EA2027"
+        ],
+        "name": "Dutch Palette Bara Red",
+        "translation": "Dutch palette based on Flat UI",
+        "propertyValue": "aklfo",
+        "type": "row",
+        "_id": "5aac0173be1a68155e395faa"
+      }
+    ],
+    "ui": [
+      {
+        "colors": [
+          "#FFC312",
+          "#F79F1F",
+          "#EE5A24",
+          "#EA2027",
+          "#C4E538",
+          "#A3CB38",
+          "#009432",
+          "#006266",
+          "#12CBC4",
+          "#1289A7",
+          "#0652DD",
+          "#1B1464",
+          "#FDA7DF",
+          "#D980FA",
+          "#9980FA",
+          "#5758BB",
+          "#ED4C67",
+          "#B53471",
+          "#833471",
+          "#6F1E51"
+        ],
+        "name": "Dutch Palette",
+        "_id": "5aac009bbe1a68155e395fa8"
+      }
+    ]
+  },
+  "customStyles": [
+    {
+      "cssRef": "theme.css",
+      "classRef": "sense-theme"
+    }
+  ],
+  "scales": [
+    {
+      "scale": [
+        "#ffc212",
+        "#ffc829",
+        "#ffce41",
+        "#ffd459",
+        "#ffda70",
+        "#ffe088",
+        "#ffe6a0",
+        "#ffecb7",
+        "#fff2cf",
+        "#fff9e7"
+      ],
+      "name": "Dutch Palette Sunflower Tints",
+      "translation": "Dutch palette based on Flat UI",
+      "type": "class",
+      "propertyValue": "u7g2oi",
+      "_id": "5aac02b0be1a68155e395fb5"
+    },
+    {
+      "scale": [
+        "#c4e538",
+        "#c9e74b",
+        "#cfea5f",
+        "#d5ec73",
+        "#dbef87",
+        "#e1f29b",
+        "#e7f4af",
+        "#edf7c3",
+        "#f3f9d7",
+        "#f9fceb"
+      ],
+      "name": "Dutch Palette Energos Tints",
+      "translation": "Dutch palette based on Flat UI",
+      "type": "class",
+      "propertyValue": "fda4aj",
+      "_id": "5aac02b0be1a68155e395fb4"
+    },
+    {
+      "scale": [
+        "#12cbc4",
+        "#29d0c9",
+        "#41d5cf",
+        "#59dad5",
+        "#70dfdb",
+        "#88e5e1",
+        "#a0eae7",
+        "#b7efed",
+        "#cff4f3",
+        "#e7f9f9"
+      ],
+      "name": "Dutch Palette Blue Martina Tints",
+      "translation": "Dutch palette based on Flat UI",
+      "type": "class",
+      "propertyValue": "tv2v2",
+      "_id": "5aac02b0be1a68155e395fb3"
+    },
+    {
+      "scale": [
+        "#FDA7DF",
+        "#fdafe2",
+        "#fdb8e5",
+        "#fdc1e8",
+        "#fdcaeb",
+        "#fed3ef",
+        "#fedbf2",
+        "#fee4f5",
+        "#feedf8",
+        "#fef6fb"
+      ],
+      "name": "Dutch Palette Lavender Rose Tints",
+      "translation": "Dutch palette based on Flat UI",
+      "type": "class",
+      "propertyValue": "wursvdx",
+      "_id": "5aac02b0be1a68155e395fb2"
+    },
+    {
+      "scale": [
+        "#ed4c67",
+        "#ee5d76",
+        "#f06f85",
+        "#f28194",
+        "#f493a3",
+        "#f6a5b3",
+        "#f7b7c2",
+        "#f9c9d1",
+        "#fbdbe0",
+        "#fdedef"
+      ],
+      "name": "Dutch Palette Bara Red Tints",
+      "translation": "Dutch palette based on Flat UI",
+      "type": "class",
+      "propertyValue": "cmy8or",
+      "_id": "5aac02b0be1a68155e395fb1"
+    },
+    {
+      "scale": [
+        "#009432",
+        "#199e46",
+        "#32a95a",
+        "#4cb46f",
+        "#66be84",
+        "#7fc998",
+        "#99d4ad",
+        "#b2dec1",
+        "#cce9d6",
+        "#e5f4ea"
+      ],
+      "name": "Dutch Palette Pixelated Grass Tints",
+      "translation": "Dutch palette based on Flat UI",
+      "type": "class",
+      "propertyValue": "l18oa",
+      "_id": "5aac0503be1a68155e395fb8"
+    },
+    {
+      "scale": [
+        "#1289a7",
+        "#2994af",
+        "#41a0b8",
+        "#59acc1",
+        "#70b8ca",
+        "#88c4d3",
+        "#a0cfdb",
+        "#b7dbe4",
+        "#cfe7ed",
+        "#e7f3f6"
+      ],
+      "name": "Dutch Palette Mediterranean Sea Tints",
+      "translation": "Dutch palette based on Flat UI",
+      "type": "class",
+      "propertyValue": "bt0vlm",
+      "_id": "5aac0503be1a68155e395fb7"
+    },
+    {
+      "scale": [
+        "#ee5a24",
+        "#ef6a39",
+        "#f17a4f",
+        "#f38b65",
+        "#f49c7b",
+        "#f6ac91",
+        "#f8bda7",
+        "#f9cdbd",
+        "#fbded3",
+        "#fdeee9"
+      ],
+      "name": "Dutch Palette Puffins Bill Tints",
+      "translation": "Dutch palette based on Flat UI",
+      "type": "class",
+      "propertyValue": "f6efnh",
+      "_id": "5aac0503be1a68155e395fb6"
+    }
+  ],
+  "_inherit": true,
+  "_variables": {
+    "@TitleSize": "16px",
+    "@SubtitleSize": "15px",
+    "@TextSize": "12px",
+    "@FooterSize": "10px",
+    "@TitleColor": "#1289A7",
+    "@SubtitleColor": "#1289A7",
+    "@TextColor": "#1289A7",
+    "@FooterColor": "#1289A7",
+    "@BackgroundColor": "#ffffff",
+    "@AxisMajorColor": "#cfe7ed",
+    "@AxisMinorColor": "#cfe7ed"
+  },
+  "color": "@TextColor",
+  "fontSize": "@TextSize",
+  "backgroundColor": "@BackgroundColor"
+}
